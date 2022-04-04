@@ -1,9 +1,9 @@
 # H-Island
 
-Mariam PM
-Hadar Product Designer
-Louis Dev
-Hannan Dev
+Mariam **Product Manager**  
+Hadar **Product Designer**
+Louis **Developer**  
+Hannan **Developer**  
 
 
 Mission Statement
