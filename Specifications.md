@@ -106,7 +106,7 @@ Enters site -> Reads summary of survey experience -> Starts survey -> Answers su
 <img src="Images/Welcome.png">
 
 
-Potential Errors:
+Potential Errors: a
 
 
  | Potential Error  | How will we tackle this error |
