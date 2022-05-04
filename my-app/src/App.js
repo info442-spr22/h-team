@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { Router, Route, Redirect, useLocation } from 'react-router-dom';
+import Nav from './Nav';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi h-Island
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      
+
+
+      <footer className="bg-secondary">
+        <span>
+          Authors:
+          <span> </span>
+          <a className="author-names" href="mailto:Hadard@uw.edu">Hadar</a>
+          <span> </span>
+          <a className="author-names" href="mailto:hajmal05@uw.edu">Hannan</a>
+          <span> </span>
+          <a className="author-names" href="mailto:qleng@uw.edu">Louis</a>
+          <span> </span>
+          <a className="author-names" href="mailto:khanm7@uw.edu">Mariam</a>
+        </span>
+        <span> </span>
+        <span>&copy; h-island 2022-2022</span>
+      </footer>
+
     </div>
   );
 }
