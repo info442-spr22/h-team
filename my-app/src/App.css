@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+footer {
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	position: fixed;
+	bottom: 0;
+  background-color: DarkSalmon;
+}
+
+
+.nav-link {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.navbar-brand {
+	color: whitesmoke;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.top-navbar {
+	height: 4rem;
+}
+
+ header {
+   background-color: lightgrey;
+   height: 4rem;
+   width: 100%;
+ }
