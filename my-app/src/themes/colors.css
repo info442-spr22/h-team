@@ -1,0 +1,15 @@
+/*
+For this file, Hannan is utilizng the structure we used in his capstone team
+for having the same colors, fonts, and overall themes for our app. Shane
+who is the g-team is on the same capstone team as a Hannan
+*/
+:root {
+  --color-page-background: white;
+  --text-on-page-background: black;
+
+  --color-one: #FCAA67;
+  --color-two: #177E89;
+  --color-three: #084C61;
+  --color-four: #FFFFC7;
+  --color-five: #CDEAC0;
+}
