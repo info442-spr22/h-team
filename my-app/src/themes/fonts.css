@@ -1,0 +1,7 @@
+/*
+For this file, Hannan is utilizng the structure we used in my capstone team
+for having the same colors, fonts, and overall themes for our app.
+*/
+:root {
+  --deafult-font: 'Lato', san-serif;
+}
