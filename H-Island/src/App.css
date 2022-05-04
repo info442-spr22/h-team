@@ -67,8 +67,8 @@ footer {
 	height: 4rem;
 }
 
- header {
-   background-color: lightgrey;
-   height: 4rem;
-   width: 100%;
- }
+header {
+  background-color: lightgrey;
+  height: 5rem;
+  width: 100%;
+}
