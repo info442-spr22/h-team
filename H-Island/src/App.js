@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { Router, Route, Redirect, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Nav from './Nav';
-import './App.css';
+import Home from './Page/Home/Home';
+import styles from './App.css';
 
 function App() {
   return (
     <div>
-      <Nav />
-      
+      <Router>
+        <Nav />
+        <Home />
+      </Router>
+
 
 
       <footer className="bg-secondary">

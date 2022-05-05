@@ -11,7 +11,9 @@ export default function Nav() {
             <h1> H-Islands</h1>
           </li>
           <li className="nav">
-            <h1> Home </h1>
+          <NavLink to="/home">
+            <button className="btn btn-secondary"> Home</button>
+          </NavLink>
           </li>
         </ul>
       </header>
