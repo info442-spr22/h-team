@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
-import Nav from './Nav';
-import Home from './Page/Home/Home';
+import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom';
+import Home from './Component/Home/Home';
+import Survey from './Component/Survey/Survey';
 import styles from './App.css';
 
 function App() {
   return (
     <div>
-      <Router>
-        <Nav />
-        <Home />
-      </Router>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/survey" element={<Survey />} />
+        </Routes>
+      </BrowserRouter>
 
 
 
