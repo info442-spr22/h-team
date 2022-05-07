@@ -13,7 +13,7 @@ interface Props {
 export default function Block(props: React.PropsWithChildren<Props>) {
     let classes: string[] = []
 
-    classes.push(props.align === 'left' ? utils['left-align'] : utils['center-align'])
+    classes.push(props.align === utils['center-align'])
     if (props.size === 'small') classes.push(styles.small)
     classes.push(styles.block)
 
