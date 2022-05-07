@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom';
-import Home from './Component/Home/Home';
-import Survey from './Component/Survey/Survey';
+import Home from './Pages/Home/Home';
+import Survey from './Pages/Survey/Survey';
 import styles from './App.css';
 
 function App() {

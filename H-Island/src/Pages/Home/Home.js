@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './Home.css'
 import {Link} from "react-router-dom";
-import Nav from "../Nav/Nav";
+import Nav from "../../Components/Nav/Nav";
 
 export default function Home() {
 
     return (
       <div>
-      <Nav/>
+        <Nav/>
         <section className={'styles.caption'}>
           Find your dream location that is waitng for you
         </section>
@@ -20,11 +20,11 @@ export default function Home() {
         <section className={'desciptionRight'}>
         This problem affects small island developing states(SIDS) and their citizens. SIDS are states who face social, economic, and environmental vulnerabilities that are unique to their circumstances (un.org). The Economics of SIDS is highly integrated and dependent on the tourism industry, involving countless jobs and businesses. When the pandemic hit in the year 2020, tourism all over the world dramatically paused. This pause lasted for almost a year causing the loss of jobs in the tourism industry, disproportionately impacting women and youth. Numerous planned business expansions fell through taking away thousands of possible new jobs, significantly affecting economies all over the world. As stated in the article Wish you Were Here by Adam Behsudi “The Caribbean Hotel and Tourism Association has projected that as many as 60 percent of the 30,000 new hotel rooms that were in the planning or construction phase throughout the Caribbean region will not be completed as a result of the crisis.”(Behsudi)
         </section>
-          <div className="d-flex justify-content-md-center">
+         <div className="d-flex justify-content-md-center">
           <Link to="/survey">
-            <button className="btn btn-secondary"> Start Survey</button>
+           <button className="btn btn-secondary"> Start Survey</button>
           </Link>
-          </div>
         </div>
+      </div>
     );
 }
