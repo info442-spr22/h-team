@@ -1,0 +1,30 @@
+/*
+Pulling this piece of code from Hannan's capstone project
+since it fits with what we are trying to accomplish
+*/
+allCaps {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.block-horiz-centered {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
