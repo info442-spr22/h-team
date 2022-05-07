@@ -1,0 +1,16 @@
+.section {
+  font-size: 3.2rem;
+}
+
+.displayBlock {
+  display: block;
+}
+
+/* Block */
+.block {
+  font-size: 2.4rem;
+}
+
+.block.small {
+  font-size: 1.8rem;
+}
