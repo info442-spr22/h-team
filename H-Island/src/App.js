@@ -4,7 +4,7 @@ import Home from './Pages/Home/Home';
 import Survey from './Pages/Survey/Survey';
 import styles from './App.css';
 
-function App() {
+export default function App() {
   return (
     <div>
       <BrowserRouter>
@@ -35,5 +35,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
