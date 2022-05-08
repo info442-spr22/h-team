@@ -4,9 +4,17 @@ h1 {
   align-items: center;
   width: 100%;
   margin-top: -.5rem;
+  color: white;
 }
 
-button {
+.btn {
   margin-top: -.5rem;
-  color: black;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: #3B7C87;
+  width: 100%;
+  margin-left: 0;
 }
