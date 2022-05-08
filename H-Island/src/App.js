@@ -2,21 +2,23 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Survey from './Pages/Survey/Survey';
-import styles from './App.css';
+import Nav from './Components/Nav/Nav';
+import './App.css';
+import {useLocation,} from 'react-router-dom';
 
 export default function App() {
+  const location = useLocation();
   return (
     <div>
-      <BrowserRouter>
+      <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/survey" element={<Survey />} />
         </Routes>
-      </BrowserRouter>
 
 
 
-      <footer className="bg-secondary">
+      <footer className="bg author">
         <span>
           Authors:
           <span> </span>
