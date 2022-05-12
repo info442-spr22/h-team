@@ -61,12 +61,74 @@ const surveyJson = {
       }],
   }, {
       elements: [{
-        name: "Question 5",
+          name: "Question 5",
           title: "How much money are you willing to spend?",
           type: "radiogroup",
           choices: [
             {value: 1, text: "My budget is tight"},
             {value: 2, text: "My vaction fund is full"}
+          ],
+      }]
+  }, {
+      elements: [{
+        name: "Question 6",
+          title: "What region are you interested in visiting?",
+          type: "radiogroup",
+          choices: [
+            {value: 1, text: "North America"},
+            {value: 2, text: "South America"},
+            {value: 3, text: "Central America"},
+            {value: 4, text: "Asia"}
+          ],
+          isRequired: true
+      }]
+  }, {
+      elements: [{
+        name: "Question 7",
+          title: "Some countries recommend tourist to obtain specific vaccines before visiting. Are you willing to to get more vaccines to protect yourself against unfamiliar diseases?",
+          type: "radiogroup",
+          choices: [
+            {value: 1, text: "I am willing"},
+            {value: 2, text: "I am not willing"}
+          ],
+          isRequired: true
+      }]
+  }, {
+      elements: [{
+          name: "Question 8",
+          title: "Are you vaccinated against COVID-19?",
+          type: "radiogroup",
+          choices: [
+            {value: 1, text: "I am not vaccinated, but will get tested"},
+            {value: 2, text: "I am vaccinated, but only have one dose"},
+            {value: 3, text: "I am vaccinated, but with only two doses"},
+            {value: 4, text: "I am fully vaccinated with all doses"}
+          ],
+          isRequired: true
+      }]
+  }, {
+      elements: [{
+          name: "Question 9",
+          title: "SIDS countries, have people that speak various languages, do you have a preferance towards a language spoken at your travel destination?",
+          type: "radiogroup",
+          choices: [
+            {value: 1, text: "I would prefer English as one of the languages"},
+            {value: 2, text: "I would prefer Spanish as one of the languages"},
+            {value: 3, text: "I would prefer French as one of the languages"},
+            {value: 4, text: "No preferance"}
+          ],
+          isRequired: true
+      }]
+  }, {
+      elements: [{
+          name: "Question 10",
+          title: "What means of transport do you prefer to use while at your travel destination?",
+          type: "radiogroup",
+          choices: [
+            {value: 1, text: "Rental car"},
+            {value: 2, text: "Rideshare services"},
+            {value: 3, text: "Public transportaion"},
+            {value: 4, text: "Walking"}
           ],
       }]
   }]
