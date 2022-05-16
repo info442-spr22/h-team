@@ -1,9 +1,6 @@
 import {React, useCallback} from 'react'
 import './Survey.css'
-import 'survey-core/modern.min.css';
 import {Link} from "react-router-dom";
-
-// Modern theme
 import 'survey-core/modern.min.css';
 import { StylesManager, Model } from "survey-core";
 import { Survey } from "survey-react-ui";
