@@ -75,10 +75,10 @@ const surveyJson = {
           title: "What region are you interested in visiting?",
           type: "radiogroup",
           choices: [
-            {value: 1, text: "North America"},
-            {value: 2, text: "South America"},
-            {value: 3, text: "Central America"},
-            {value: 4, text: "Asia"}
+            {value: 1, text: "Caribbean"},
+            {value: 2, text: "Pacific Ocean"},
+            {value: 3, text: "Atlantic Ocean"},
+            {value: 4, text: "Indian Ocean"}
           ],
           isRequired: true
       }]
