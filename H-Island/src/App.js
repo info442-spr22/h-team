@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import Survey from './Pages/Survey/Survey';
 import Nav from './Components/Nav/Nav';
 import Result from './Pages/Result/Result';
+import Island from './Pages/Island/Island';
 import './App.css';
 import {useLocation,} from 'react-router-dom';
 
@@ -15,6 +16,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/survey" element={<Survey />} />
+          <Route path="/island" element={<Island/>} />
+          <Route exact path="/island/:country" element={<Island/>} />
           <Route path="/result" element={<Result />} />
         </Routes>
 
