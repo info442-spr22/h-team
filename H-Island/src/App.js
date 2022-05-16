@@ -11,9 +11,10 @@ export default function App() {
   return (
     <div>
       <Nav/>
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/survey" element={<Survey />} />
+          <Route path="/result" element={<Result />} />
         </Routes>
 
 
