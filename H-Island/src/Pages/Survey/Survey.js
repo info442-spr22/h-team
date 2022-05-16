@@ -1,6 +1,7 @@
 import {React, useCallback} from 'react'
 import './Survey.css'
 import 'survey-core/modern.min.css';
+import {Link} from "react-router-dom";
 
 // Modern theme
 import 'survey-core/modern.min.css';
@@ -143,8 +144,6 @@ export default function SurveyPage() {
   }, []);
 
   survey.onComplete.add(alertResults);
-
-  
 
     return (
       <div>
