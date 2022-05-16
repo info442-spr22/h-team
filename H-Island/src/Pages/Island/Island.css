@@ -1,0 +1,39 @@
+#flag {
+    display: flex;
+    max-width:20rem;
+    max-height:20rem;
+    width: auto;
+    height: auto;
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+.row h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 5rem;
+}
+
+
+.main-pic{
+    object-fit: scale-down;
+    overflow: hidden;
+    max-height: 40rem;
+    margin: 4rem 0 4rem 0;
+}
+
+.welcome {
+    margin: 0 0 0 0;
+    background-color:#E0E0DB;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.info {
+    margin: 4rem 8rem 5rem 12rem;
+
+}

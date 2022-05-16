@@ -1,0 +1,23 @@
+[
+    { 
+        "country": "Bahrain",
+        "population": "1.7",
+        "busiestTime": "December to March",
+        "climate": "Arid",
+        "summerTemps": "Extremely hot",
+        "winterTemps": "Mild",
+        "languages": "Arabic, English",
+        "mainAttractions": "Manama, Riffa, Juffair, Amwaj Island",
+        "region": "Middle East",
+        "terrain": "Desert",
+        "costPerDay": "128",
+        "covidStatus": "Level 3",
+        "touristFriendliness": "High",
+        "ageRange": "18-35",
+        "bestTimeOfYear": "Fall",
+        "transportationServices": "All",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/1920px-Flag_of_Jamaica.svg.png",
+        "image": "https://travelbylabuenavida.com/wp-content/uploads/2021/12/Jamaica-scaled.jpg",
+        "instagram": "@JamaicaOffical"
+
+    }]
