@@ -3,9 +3,7 @@ import { NavLink } from 'react-router-dom';
 import "./Nav.css";
 
 export default function Nav() {
-
     return (
-
       <header className="navbar">
         <ul className="navbar me-auto col">
           <li className="nav">
