@@ -1,5 +1,14 @@
+/*
 h2 {
     color: black;
     align-items: center;
     text-align: center;
+}
+*/
+.button {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: #3B7C87;
 }
