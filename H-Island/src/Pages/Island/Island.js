@@ -1,6 +1,6 @@
 import React from 'react';
 import './Island.css'
-import island_data from "../../data/islands-1.json";
+import island_data from "../../data/islands.json";
 import { BrowserRouter, Routes, Route, Redirect, useParams, Link } from 'react-router-dom';
 
 function IslandCard(props) {
@@ -8,10 +8,10 @@ function IslandCard(props) {
   return(
     <div>
       <div className='row welcome'>
-        <img src={island.image} alt={island.country+" flag"} className="col-6 main-pic"/>
+        <img src={island.islandPic} alt={island.country+" Island Image"} className="col-6 main-pic"/>
         <div className='col-6'>
           <h2 className=''>Welcome to {island.country}</h2>
-          <img src={island.flag} alt={island.country+" flag"} id="flag"/>
+          <img src={island.countryFlagPic} alt={island.country+" Country Flag Picture"} id="flag"/>
         </div>
       </div>
       <div className='row info'>
@@ -45,7 +45,7 @@ function IslandCard(props) {
         </div>
         <div className='instagram col-3'>
           <p className='title'>Instagram</p>
-          <p>{island.instagram}</p>
+          <p>{island.countryInstagram}</p>
         </div>
       </div>
     </div>
@@ -59,7 +59,16 @@ export default function Island() {
   return (
     <div>
       {islandArray.map((ele)=>{
-            return <li>{ele.country}</li>
+        var acountry = ele.country
+            return <div>
+                    <li>{ele.country}</li>
+                    <Link to={ele.country} className="col-6" style={{ display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    textDecoration: 'none'}}>
+                      <button className="btn" id="survey-button" > {acountry}</button>
+                    </Link>
+                  </div>
 
           })
       }
