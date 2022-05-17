@@ -16,8 +16,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "Walking",
         "children": "Yes",
-        "countryFlagPic": "NauruFlag.png",
-        "islandPic": "NauruImg.jpg",
+        "countryFlagPic": "../pics/NauruFlag.png",
+        "islandPic": "../pics/NauruImg.jpg",
         "countryInstagram": "@nauruvacation",
         "countryOfficalPage": "http://naurugov.nr"
     },
@@ -38,8 +38,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "PublicTransports",
         "children": "No",
-        "countryFlagPic": "papuaNewGuineaFlag.png",
-        "islandPic": "papuaNewGuineaImg.png.jpg",
+        "countryFlagPic": "../pics/papuaNewGuineaFlag.png",
+        "islandPic": "../pics/papuaNewGuineaImg.png.jpg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.papuanewguinea.travel/"
     },
@@ -60,8 +60,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "SamoaFlag.png",
-        "islandPic": "SamoaImg.png.jpg",
+        "countryFlagPic": "../pics/SamoaFlag.png",
+        "islandPic": "../pics/SamoaImg.jpeg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.samoagovt.ws/"
     },
@@ -82,8 +82,8 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "PublicTransport",
         "children": "Yes",
-        "countryFlagPic": "solomonIslandsFlag.jpeg",
-        "islandPic": "solomonIslandsImg.jpg",
+        "countryFlagPic": "../pics/solomonIslandsFlag.jpeg",
+        "islandPic": "../pics/solomonIslandsImg.jpg",
         "countryInstagram": "@checkoutsolomonislands",
         "countryOfficalPage": "https://www.solomonislandsembassy.com/connecting-with-solomon-islands/"
     },
@@ -104,8 +104,8 @@
         "timeToVisit": "September to November",
         "bestWayToGetAround": "RideShare",
         "children": "No",
-        "countryFlagPic": "timor-lesteFlag.png",
-        "islandPic": "Timor-LesteImg.jpeg",
+        "countryFlagPic": "../pics/timor-lesteFlag.png",
+        "islandPic": "../pics/Timor-LesteImg.jpeg",
         "countryInstagram": "@timorleste_",
         "countryOfficalPage": "http://timor-leste.gov.tl/?lang=en/"
     },
@@ -126,8 +126,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "tongaFlag.png",
-        "islandPic": "tongaImg.jpeg",
+        "countryFlagPic": "../pics/tongaFlag.png",
+        "islandPic": "../pics/tongaImg.jpeg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.gov.to/"
     },
@@ -148,8 +148,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "RideShare",
         "children": "Yes",
-        "countryFlagPic": "TuvaluFlag.png",
-        "islandPic": "TuvaluImg.jpeg",
+        "countryFlagPic": "../pics/TuvaluFlag.png",
+        "islandPic": "../pics/TuvaluImg.jpeg",
         "countryInstagram": "@tuvaludepartmentoftrade",
         "countryOfficalPage": "https://www.timelesstuvalu.com/"
     },
@@ -170,8 +170,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Bus",
         "children": "Yes",
-        "countryFlagPic": "vanuatuFlag.png",
-        "islandPic": "vanuatuImg.jpeg",
+        "countryFlagPic": "../pics/vanuatuFlag.png",
+        "islandPic": "../pics/vanuatuImg.jpeg",
         "countryInstagram": "@vanuatu.tourisme",
         "countryOfficalPage": "https://www.gov.vu/"
     },
@@ -192,8 +192,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Bus",
         "children": "Yes",
-        "countryFlagPic": "americanSamoaFlag.png",
-        "islandPic": "americanSamoaImg.jpeg",
+        "countryFlagPic": "../pics/americanSamoaFlag.png",
+        "islandPic": "../pics/americanSamoaImg.jpeg",
         "countryInstagram": "@np_american_samoa",
         "countryOfficalPage": "https://www.americansamoa.gov/"
     },
@@ -214,8 +214,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "RideShare",
         "children": "Yes",
-        "countryFlagPic": "anguillaFlag.png",
-        "islandPic": "anguillaImg.jpeg",
+        "countryFlagPic": "../pics/anguillaFlag.png",
+        "islandPic": "../pics/anguillaImg.jpeg",
         "countryInstagram": "@anguilla_tourism",
         "countryOfficalPage": "https://ivisitanguilla.com/"
     },
@@ -236,10 +236,10 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "RideShare",
         "children": "Yes",
-        "countryFlagPic": "ArubaFlag.png",
-        "islandPic": "ArubaImg.jpg",
+        "countryFlagPic": "../pics/ArubaFlag.png",
+        "islandPic": "../pics/ArubaImg.jpg",
         "countryInstagram": "@aarubatourism",
-        "countryOfficalPage": "https://www.aruba.com/us/the-aruba-effect?gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkHVQFm5ysxeqwhUPiV7CmT-50skV-4KcurfTsE5kASQzyHKQ03_6RAaAibHEALw_wcB" 
+        "countryOfficalPage": "https://www.aruba.com/us/the-aruba-effect?gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkHVQFm5ysxeqwhUPiV7CmT-50skV-4KcurfTsE5kASQzyHKQ03_6RAaAibHEALw_wcB"
     },
     {
         "country": "Bermuda",
@@ -258,8 +258,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "RideShare",
         "children": "Yes",
-        "countryFlagPic": "BermudaFlag.png",
-        "islandPic": "BermudaImg.jpg",
+        "countryFlagPic": "../pics/BermudaFlag.png",
+        "islandPic": "../pics/BermudaImg.jpg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.gov.bm/"
     },
@@ -280,8 +280,8 @@
         "timeToVisit": "September to November",
         "bestWayToGetAround": "RideShare",
         "children": "Yes",
-        "countryFlagPic": "BritishVirginIslandsFlag.svg.png",
-        "islandPic": "BritishVirginIslandsImg.jpeg",
+        "countryFlagPic": "../pics/BritishVirginIslandsFlag.svg.png",
+        "islandPic": "../pics/BritishVirginIslandsImg.jpeg",
         "countryInstagram": "@britishvirginis",
         "countryOfficalPage": "https://bvi.gov.vg/"
     },
@@ -302,8 +302,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "CaymanIslandsFlag.png",
-        "islandPic": "CaymanIslandsImg.jpeg",
+        "countryFlagPic": "../pics/CaymanIslandsFlag.png",
+        "islandPic": "../pics/CaymanIslandsImg.jpeg",
         "countryInstagram": "@visitcaymanislands",
         "countryOfficalPage": "https://www.visitcaymanislands.com/en-us"
     },
@@ -324,8 +324,8 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "CommonwealthofNorthernMarianasFlag.svg.png",
-        "islandPic": "CommonwealthofNorthernMarianasImg.jpeg",
+        "countryFlagPic": "../pics/CommonwealthofNorthernMarianasFlag.svg.png",
+        "islandPic": "../pics/CommonwealthofNorthernMarianasImg.jpeg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.doi.gov/oia/islands/cnmi"
     },
@@ -346,8 +346,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "PublicTransport",
         "children": "Yes",
-        "countryFlagPic": "cookIslandsFlag.gif",
-        "islandPic": "cookIslandsImg.jpeg",
+        "countryFlagPic": "../pics/cookIslandsFlag.gif",
+        "islandPic": "../pics/cookIslandsImg.jpeg",
         "countryInstagram": "@cookislands",
         "countryOfficalPage": "https://cookislands.travel/home"
     },
@@ -368,8 +368,8 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "curacaoFlag.jpeg",
-        "islandPic": "curacaoImg",
+        "countryFlagPic": "../pics/curacaoFlag.jpeg",
+        "islandPic": "../pics/curacaoImg",
         "countryInstagram": "@curacao",
         "countryOfficalPage": "https://www.curacao.com/en/"
     },
@@ -390,8 +390,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Walking",
         "children": "Yes",
-        "countryFlagPic": "frenchPolynesiaFlag.png",
-        "islandPic": "frenchPolynesiaImg.jpeg",
+        "countryFlagPic": "../pics/frenchPolynesiaFlag.png",
+        "islandPic": "../pics/frenchPolynesiaImg.jpeg",
         "countryInstagram": "@french_polynesia",
         "countryOfficalPage": "NA"
     },
@@ -412,8 +412,8 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "guadeloupeFlag.jpeg",
-        "islandPic": "GuadeloupeImg.jpeg",
+        "countryFlagPic": "../pics/guadeloupeFlag.jpeg",
+        "islandPic": "../pics/GuadeloupeImg.jpeg",
         "countryInstagram": "@guadeloupeislands",
         "countryOfficalPage": "https://www.guadeloupe.gouv.fr/"
     },
@@ -434,8 +434,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "GuamFlag.png",
-        "islandPic": "guamImg.jpeg",
+        "countryFlagPic": "../pics/GuamFlag.png",
+        "islandPic": "../pics/guamImg.jpeg",
         "countryInstagram": "@guam",
         "countryOfficalPage": "https://www.visitguam.com/"
     },
@@ -456,8 +456,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "martiniqueFlag.png",
-        "islandPic": "martiniqueImg.jpeg",
+        "countryFlagPic": "../pics/martiniqueFlag.png",
+        "islandPic": "../pics/martiniqueImg.jpeg",
         "countryInstagram": "@martiniquetourisme",
         "countryOfficalPage": "https://us.martinique.org/"
     },
@@ -478,8 +478,8 @@
         "timeToVisit": "March to May",
         "bestWayToGetAround": "PublicTransport",
         "children": "Yes",
-        "countryFlagPic": "montserratFlag.png",
-        "islandPic": "montserratImg.jpeg",
+        "countryFlagPic": "../pics/montserratFlag.png",
+        "islandPic": "../pics/montserratImg.jpeg",
         "countryInstagram": "NA",
         "countryOfficalPage": "https://www.visitmontserrat.com/"
     },
@@ -500,8 +500,8 @@
         "timeToVisit": "September to November",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "NewCaledoniaFlag.jpeg",
-        "islandPic": "NewCaledoniaImg.jpeg",
+        "countryFlagPic": "../pics/NewCaledoniaFlag.jpeg",
+        "islandPic": "../pics/NewCaledoniaImg.jpeg",
         "countryInstagram": "@newcaledoniatourism",
         "countryOfficalPage": "https://www.newcaledonia.travel/en"
     },
@@ -522,8 +522,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "puertoRicoiMG.jpg",
-        "islandPic": "puertoRicoFlag.png",
+        "countryFlagPic": "../pics/puertoRicoiMG.jpg",
+        "islandPic": "../pics/puertoRicoFlag.png",
         "countryInstagram": "@puertorico.travelers",
         "countryOfficalPage": "https://www.discoverpuertorico.com/"
     },
@@ -544,8 +544,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "SintMaartenFlag.png",
-        "islandPic": "Sint MaartenImg.jpeg",
+        "countryFlagPic": "../pics/SintMaartenFlag.png",
+        "islandPic": "../pics/Sint MaartenImg.jpeg",
         "countryInstagram": "@onlyonsxm",
         "countryOfficalPage": "http://www.sintmaartengov.org/"
     },
@@ -566,8 +566,8 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "TurksandCaicosImg.jpeg",
-        "islandPic": "TurksandCaicosFlag.png",
+        "countryFlagPic": "../pics/TurksandCaicosImg.jpeg",
+        "islandPic": "../pics/TurksandCaicosFlag.png",
         "countryInstagram": "@turksandcaicos",
         "countryOfficalPage": "https://turksandcaicostourism.com/"
     },
@@ -588,11 +588,10 @@
         "timeToVisit": "June to August",
         "bestWayToGetAround": "Car",
         "children": "Yes",
-        "countryFlagPic": "virginsFlag.jpeg",
-        "islandPic": "us-virgin-islandImg.jpeg",
+        "countryFlagPic": "../pics/virginsFlag.jpeg",
+        "islandPic": "../pics/us-virgin-islandImg.jpeg",
         "countryInstagram": "@usvirginislands",
         "countryOfficalPage": "https://www.vi.gov/"
     }
-    
-    
+
 ]
