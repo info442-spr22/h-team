@@ -11,8 +11,10 @@ import {useLocation,} from 'react-router-dom';
 export default function App() {
   const location = useLocation();
   return (
-    <div>
+    <div className='page'>
+      <section>
       <Nav/>
+      </section>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/survey" element={<Survey />} />
@@ -24,6 +26,7 @@ export default function App() {
 
 
 
+      <section>
       <footer className="bg author">
         <span>
           Authors:
@@ -39,7 +42,7 @@ export default function App() {
         <span> </span>
         <span>&copy; h-island 2022-2022</span>
       </footer>
-
+      </section>
     </div>
   );
 }

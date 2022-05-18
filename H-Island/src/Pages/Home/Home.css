@@ -88,5 +88,10 @@ h3.bg-intro-col2 {
 }
 
 
-
+.page-container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 

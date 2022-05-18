@@ -6,7 +6,7 @@ import Nav from "../../Components/Nav/Nav";
 export default function Home() {
 
     return (
-      <div>
+      <div className='page-container'>
         <div className="caption"> 
           <h3>
             Find your dream location that is waiting for you 
