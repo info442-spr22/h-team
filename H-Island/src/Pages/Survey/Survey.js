@@ -5,6 +5,7 @@ import 'survey-core/modern.min.css';
 import { StylesManager, Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import island_data from "../../data/islands.json";
+import Result from '../Result/Result';
 
 StylesManager.applyTheme("modern");
 
@@ -375,6 +376,7 @@ export default function SurveyPage() {
     return (
       <div>
         <Survey model={survey} />
+        <Result />
       </div>
     );
 }
