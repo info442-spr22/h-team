@@ -13,7 +13,7 @@ const surveyJson = {
       elements: [{
           name: "timeToVisit",
           title: "What time of the year would you like to visit?",
-          type: "radiogroup",
+          type: "checkbox",
           choices: [
             {value: "March to May", text: "March to May"},
             {value: "June to August", text: "June to August"},
@@ -37,7 +37,7 @@ const surveyJson = {
       elements: [{
           name: "region",
           title: "What region are you most interested in visiting?",
-          type: "radiogroup",
+          type: "checkbox",
           choices: [
             {value: "Caribbean", text: "Caribbean"},
             {value: "Pacific Ocean", text: "Pacific Ocean"},
@@ -50,7 +50,7 @@ const surveyJson = {
       elements: [{
           name: "activityIntensity",
           title: "What type of activities do you enjoy?",
-          type: "radiogroup",
+          type: "checkbox",
           choices: [
             {value: "Low", text: "Low-intensity (beach-bathing, sight-seeing, etc)"},
             {value: "Medium", text: "Medium-intensity (biking, recreational sports, etc)"},
@@ -63,7 +63,7 @@ const surveyJson = {
       elements: [{
           name: "exploration",
           title: "What are you most interested in exploring?",
-          type: "radiogroup",
+          type: "checkbox",
           choices: [
             {value: "Mountainous", text: "Mountainous"},
             {value: "Beaches", text: "Beaches"},
@@ -97,7 +97,7 @@ const surveyJson = {
       elements: [{
           name: "bestWayToGetAround",
           title: "What means of tranport do you prefer to use while at your travel destination?",
-          type: "radiogroup",
+          type: "checkbox",
           choices: [
             {value: "Car", text: "Personal Rental Car"},
             {value: "RideShare", text: "Rideshare services"},
@@ -373,8 +373,18 @@ export default function SurveyPage() {
   survey.onComplete.add(alertResults);
 
     return (
-      <div>
-        <Survey model={survey} />
+      <div className>
+        <div>
+          <Survey model={survey} />
+        </div>
+        <div className='exitButton'>
+        <Link to="/" className="col-6" style={{     display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none'}}>
+              <button className="btn" id="Exit Survey Button" > Exit</button>
+            </Link>
+        </div>
       </div>
     );
 }
