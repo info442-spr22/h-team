@@ -373,7 +373,7 @@ export default function SurveyPage() {
   survey.onComplete.add(alertResults);
 
     return (
-      <div className='surveyMain'>
+      <div className>
         <div>
           <Survey model={survey} />
         </div>
