@@ -1,6 +1,5 @@
 div.mission {
   display:flex;
-  height:22em;
   background-color: #FFFFC7;
   justify-content: center;
   align-items: center;
@@ -9,7 +8,7 @@ div.mission {
 
 div.caption {
   display:flex;
-  height:13em;
+  height:13rem;
   background-image: url("././Picture/Sea.jpeg");
   justify-content: center;
   align-items: center;
@@ -24,16 +23,19 @@ div.caption {
 }
 
 div.caption h3{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   font-size: 2.6rem;
   width: 40%;
   text-align: center;
   background: linear-gradient(177.86deg, rgba(255, 255, 255, 0.56) 42.58%, rgba(255, 255, 255, 0) 98.2%);
 }
 
+
 div.mission h3 {
-font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+font-size: 1.5rem;
 text-align: center;
 width: 120vh;
 color: #000000;
