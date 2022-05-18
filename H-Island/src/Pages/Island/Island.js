@@ -58,7 +58,7 @@ export default function Island() {
   const islandArray = island_data;
   return (
     <div>
-      {islandArray.map((ele)=>{
+      {/* {islandArray.map((ele)=>{
         var acountry = ele.country
             return <div>
                     <li>{ele.country}</li>
@@ -71,7 +71,7 @@ export default function Island() {
                   </div>
 
           })
-      }
+      } */}
       <div className='card-deck'>
         {islandArray.map((ele)=>{
           if(ele.country == country) {

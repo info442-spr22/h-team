@@ -20,3 +20,23 @@ h2 {
     padding: 3rem;
 }
 */
+
+.reuslt-main-pic{
+    margin: 0 0 4rem 2rem;
+    background-color: lightgray;
+    align-items: center;
+    align-content: center;
+}
+
+.main-pic img{
+    max-width:100%;
+    height:auto;
+    align-items: center;
+    align-content: center;
+}
+
+.show-rec{
+    margin-left: 36.5%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
