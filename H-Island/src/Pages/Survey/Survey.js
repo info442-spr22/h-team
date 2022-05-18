@@ -373,8 +373,18 @@ export default function SurveyPage() {
   survey.onComplete.add(alertResults);
 
     return (
-      <div>
-        <Survey model={survey} />
+      <div className='surveyMain'>
+        <div>
+          <Survey model={survey} />
+        </div>
+        <div className='exitButton'>
+        <Link to="/" className="col-6" style={{     display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none'}}>
+              <button className="btn" id="Exit Survey Button" > Exit</button>
+            </Link>
+        </div>
       </div>
     );
 }
