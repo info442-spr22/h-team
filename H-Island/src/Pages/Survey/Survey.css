@@ -1,5 +1,22 @@
+/*
 h2 {
     color: black;
     align-items: center;
     text-align: center;
 }
+*/
+.exitButton {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: white;
+}
+
+/*
+.surveyMain {
+    display: flex;
+    align-items: left;
+    padding: 3rem;
+}
+*/
