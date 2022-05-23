@@ -182,8 +182,8 @@ export default function SurveyPage() {
   const alertResults = useCallback((sender) => {
       islandPickedArray = PickIslands(island_data, sender.data);
       setIslandResult([...islandPickedArray])
-      // console.log(islandPickedArray);
-      // console.log(IslandResult);
+      console.log(islandPickedArray);
+      console.log(sender.data);
   }, []);
   
   survey.onComplete.add(alertResults)
@@ -215,11 +215,6 @@ export default function SurveyPage() {
         </div>
       );
     }
-
-
-
-  
-  
 
 
     return (
