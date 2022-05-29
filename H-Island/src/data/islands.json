@@ -104,7 +104,7 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car, Walking",
         "children": "Yes, No",
-        "countryFlagPic": "../Pics/maldivesFlag.jpg",
+        "countryFlagPic": "../Pics/maldives.jpg",
         "islandPic": "../Pics/maldivesImg.jpg",
         "countryInstagram": "@maldives",
         "countryOfficalPage": "https://visitmaldives.com/en"
@@ -280,7 +280,7 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car, Walking, Biking, RideShare",
         "children": "Yes, No",
-        "countryFlagPic": "../Pics/belizeFlag.img",
+        "countryFlagPic": "../Pics/belizeFlag.Img",
         "islandPic": "../Pics/belizeImg.jpg",
         "countryInstagram": "@travelbarbados",
         "countryOfficalPage": "https://www.travelbelize.org/"
@@ -1225,8 +1225,8 @@
         "timeToVisit": "December to February",
         "bestWayToGetAround": "Car, Walking, PublicTransport, Rideshare",
         "children": "Yes, No",
-        "countryFlagPic": "../Pics/dominicanRepublicFlag.jpg",
-        "islandPic": "../Pics/dominicanRepublicImg.jpg",
+        "countryFlagPic": "../Pics/dominicaFlag.jpg",
+        "islandPic": "../Pics/dominicaImg.jpg",
         "countryInstagram": "N/A",
         "countryOfficalPage": "https://www.godominicanrepublic.com/"
     },

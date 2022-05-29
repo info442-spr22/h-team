@@ -1,4 +1,4 @@
-import {React, useCallback, useState} from 'react'
+import {React, useCallback, useState, useEffect} from 'react'
 import './Survey.css'
 import {Link} from "react-router-dom";
 import 'survey-core/modern.min.css';
@@ -10,6 +10,8 @@ import Result from '../Result/Result';
 StylesManager.applyTheme("modern");
 
 const surveyJson = {
+  "title": "Choose Your Island!",
+  "showProgressBar": "top",
   pages: [{
       elements: [{
           name: "timeToVisit",
@@ -127,11 +129,10 @@ const surveyJson = {
             {value: "English", text: "I would prefer English as one of the languages"},
             {value: "Spanish", text: "I would prefer Spanish as one of the languages"},
             {value: "French", text: "I would prefer French as one of the languages"},
-            {value: "", text: "No preferance"}
+            {value: "", text: "No preferance (Select one language before select this choice)"}
           ],
       }]
   }]};
-
 
 
 
@@ -173,40 +174,78 @@ const surveyJson = {
   
 
 export default function SurveyPage() {
-  const [Showed, setShowed] = useState(false);
+  const [Showed, setShowed] = useState(true);
   const [IslandResult, setIslandResult] = useState([]);
 
   const survey = new Model(surveyJson);
   var islandPickedArray = [];
-  
-  const alertResults = useCallback((sender) => {
-      islandPickedArray = PickIslands(island_data, sender.data);
-      setIslandResult([...islandPickedArray])
-      console.log(islandPickedArray);
-      console.log(sender.data);
-  }, []);
-  
-  survey.onComplete.add(alertResults)
+
+  survey.onComplete.add(function (sender, options) {
+        islandPickedArray = PickIslands(island_data, sender.data);
+        setIslandResult([...islandPickedArray]);
+        setShowed(false)
+  });
+
+
 
 
     function IslandRec(){
-      <h1> Hi</h1>
-      console.log('Hello!');
       // const islandPickedArraytest = island_data.slice(0, 3);
-      console.log(islandPickedArray)
-      console.log(IslandResult)
       const islandPickedArraytest = IslandResult.slice(0,3);
+      if (islandPickedArraytest[0] == null) {
+          const random = Math.floor(Math.random() * island_data.length);
+          console.log(random)
+          const islandPickedArrayRandom = island_data.slice(random,random+3)
+          
+
+        
+        return (
+          <div className="container recommendations">
+            <h1> We could not match you to a destination based on your preferences. </h1>
+            <h1> But here are enchanting places you should check out!</h1>
+            <div className='row islands'>
+              {islandPickedArrayRandom.map((ele)=>{
+                  return (
+                    <div className="col-3 result">
+                      <Link to={"/island/"+ele.country} className="link">
+                      <img className='main' src={ele.islandPic} alt={ele.country+" Island Image"}/>
+                      <div className='row'>
+                        <div className='col-8 descr'>
+                          <h5 className=''>{ele.country}</h5>
+                          <p >{ele.countryInstagram}</p>
+                        </div>
+                        <div className='col-4'>
+                          <img className="flag" src={ele.countryFlagPic} alt={ele.country+" Island Image"}/>
+                        </div>
+                      </div>
+                      </Link>
+                    </div>
+                   )})}
+              </div>
+            </div>
+          )
+
+      } else {
 
       return (
-        <div className='container'>
-          <div className='row'> 
+        <div className='container recommendations'>
+          <h1>Recommended for you</h1>
+          <div className='row islands'> 
+          
           {islandPickedArraytest.map((ele)=>{
               return (
-                    <div className="col-4 main-pic">
-                      <Link to={"/island/"+ele.country}>
-                      <img src={ele.islandPic} alt={ele.country+" Island Image"}/>
-                      <h4>{ele.country}</h4>
-                      <h5>{ele.countryInstagram}</h5>
+                    <div className="col-3 result">
+                      <Link to={"/island/"+ele.country} className="link">
+                      <img className='main' src={ele.islandPic} alt={ele.country+" Island Image"}/>
+                      <div className='row'>
+                        <div className='col-8 descr'>
+                          <h5 className=''>{ele.country}</h5>
+                          <p >{ele.countryInstagram}</p>
+                        </div>
+                        <div className='col-4'>
+                          <img className="flag" src={ele.countryFlagPic} alt={ele.country+" Island Image"}/>
+                        </div>
+                      </div>
                       </Link>
                   </div>
                 )})
@@ -215,21 +254,17 @@ export default function SurveyPage() {
         </div>
       );
     }
+    }
 
 
     return (
 
       <div>
-        <Survey model={survey} showCompletedPage={false}/>
-        {console.log(islandPickedArray)}
-
-        <button type="submit" className='btn btn-block btn-primary col-3 show-rec' onClick={()=>setShowed(true)}>Show Recommendations</button>
+        {Showed && <Survey model={survey} showCompletedPage={false}/>}
         <div>
-          <h1>Recommended for you</h1>
           <div className='container row'>
             </div>
-            
-            {Showed && <IslandRec/>}
+            {!Showed && <IslandRec/>}
           </div>
       </div>
 

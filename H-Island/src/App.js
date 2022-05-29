@@ -12,22 +12,16 @@ export default function App() {
   const location = useLocation();
   return (
     <div className='page'>
-      <section>
       <Nav/>
-      </section>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/survey" element={<Survey />} />
           <Route path="/island" element={<Island/>} />
           <Route exact path="/island/:country" element={<Island/>} />
           <Route path="/result" element={<Result />} />
-          {/* <Route path="*" element={<Navigate to="/" replace />}/> */}
         </Routes>
-
-
-
-      <section>
-      <footer className="bg author">
+        
+      <footer className="footer">
         <span>
           Authors:
           <span> </span>
@@ -40,9 +34,8 @@ export default function App() {
           <a className="author-names" href="mailto:khanm7@uw.edu">Mariam</a>
         </span>
         <span> </span>
-        <span>&copy; h-island 2022-2022</span>
+        <span>&copy; H-Islands 2022-2022</span>
       </footer>
-      </section>
     </div>
   );
 }

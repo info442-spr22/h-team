@@ -19,7 +19,7 @@
 
 .main-pic{
     object-fit: scale-down;
-    overflow: hidden;
+    overflow-y: hidden;
     max-height: 40rem;
     margin: 4rem 0 4rem 0;
 }

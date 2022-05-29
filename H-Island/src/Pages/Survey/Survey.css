@@ -20,19 +20,52 @@ h2 {
     padding: 3rem;
 }
 */
+.recommendations{
+    margin-top: 4rem;
 
-.reuslt-main-pic{
+}
+
+.islands{
+    margin-top: 2rem;
+}
+
+/* .reuslt-main-pic{
     margin: 0 0 4rem 2rem;
     background-color: lightgray;
     align-items: center;
     align-content: center;
+} */
+
+.result {
+    background-color: lightgrey;
+    margin: 0 3rem 4rem 3rem;
+    padding: 1rem 2rem;
+    border-radius: 0;
 }
 
-.main-pic img{
+.link{
+    color: black;
+}
+
+.link:hover {
+    color: darkblue;
+ }
+
+
+.result img{
     max-width:100%;
     height:auto;
     align-items: center;
     align-content: center;
+}
+
+.result .main {
+    margin: 2rem 0 2rem ;
+    border-radius: 20px;
+}
+
+.result .flag{
+    min-width: 4.5rem;
 }
 
 .show-rec{
