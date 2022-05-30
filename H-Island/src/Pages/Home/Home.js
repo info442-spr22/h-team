@@ -9,7 +9,7 @@ export default function Home() {
       <div className='page-container'>
         <div className="caption row"> 
           <h3 className='col-6'> 
-            Find your dream location that is waiting for you 
+            Find the dream location that is waiting for you 
           </h3>
           <img className='homepic col-6' width={400} height={400} src="../Pics/p1.svg"/>
         </div>

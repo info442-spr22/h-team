@@ -91,14 +91,14 @@ const surveyJson = {
           type: "radiogroup",
           choices: [
             {value: "No", text: "I am not vaccinated but will get tested"},
-            {value: "Yes", text: "I am vaccinated (one, two, or more vaccine doses"}
+            {value: "Yes", text: "I am vaccinated (one, two, or more vaccine doses)"}
           ],
           isRequired: true
       }]
   }, {
       elements: [{
           name: "bestWayToGetAround",
-          title: "What means of tranport do you prefer to use while at your travel destination?",
+          title: "What means of transport do you prefer to use while at your travel destination?",
           type: "radiogroup",
           choices: [
             {value: "Car", text: "Personal Rental Car"},
