@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, Redirect} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Survey from './Pages/Survey/Survey';
 import Nav from './Components/Nav/Nav';
@@ -19,6 +19,7 @@ export default function App() {
           <Route path="/island" element={<Island/>} />
           <Route exact path="/island/:country" element={<Island/>} />
           <Route path="/result" element={<Result />} />
+          <Route path="*" element={<Navigate to="/" replace />}/>
         </Routes>
         
       <footer className="footer">

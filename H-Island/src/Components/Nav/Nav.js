@@ -6,10 +6,16 @@ export default function Nav() {
     return (
       <header className="navbar">
         <ul className="navbar me-auto col">
-          <li className="nav">
+          {/* <li className="nav">
             <h1> H-Islands</h1>
-          </li>
+          </li> */}
+          <NavLink className="nav" to="/" style={{ textDecoration: 'none' }}>
+            <h1> H-Islands</h1>
+          </NavLink>
           <li className="nav">
+          <NavLink to="/survey">
+            <button className="btn"> Take the Quiz!</button>
+          </NavLink>
           <NavLink to="/">
             <button className="btn"> Home</button>
           </NavLink>

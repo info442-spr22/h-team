@@ -6,12 +6,12 @@ import Nav from "../../Components/Nav/Nav";
 export default function Home() {
 
     return (
-      <div className=''>
-        <div className="caption"> 
-          <h3>
+      <div className='page-container'>
+        <div className="caption row"> 
+          <h3 className='col-6'> 
             Find your dream location that is waiting for you 
           </h3>
-          <img className='homepic' width={500} height={500} src="../Pics/p1.svg"/>
+          <img className='homepic col-6' width={400} height={400} src="../Pics/p1.svg"/>
         </div>
 
         <div className="mission row">
@@ -27,7 +27,7 @@ export default function Home() {
           <img className='homepic col-6' width={300} height={300} src="../Pics/p2.svg"/>
           <div className='col-6'>
             <h3>
-            Introducing the dream vacation matching survey. <br/>
+            Introducing the dream vacation matching quiz. <br/>
             Get three magical destination recomindation based on your own prefered experiences 
             </h3>
             <Link to="/survey" className='link' style={{
@@ -35,7 +35,7 @@ export default function Home() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 textDecoration: 'none'}}>
-                <button className="btn" id="survey-button" > Start Survey</button>
+                <button className="btn" id="survey-button" >Take the Quiz!</button>
               </Link>
           </div>  
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
             What are SIDS? SIDS are states who face social, economic, and environmental vulnerabilities that are unique to their circumstances (un.org). 
             </h3>
           </div>  
-        </div>
+        </div> 
 
         <div className="help row"> 
           <h3 className='col-6'>

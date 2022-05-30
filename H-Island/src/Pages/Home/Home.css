@@ -1,28 +1,15 @@
 div.caption {
   display:flex;
-  height: 28rem;
   justify-content: center;
   align-items: center;
-  width: 100%;
   font-size: 2.5rem;
   color: #292927;
- 
-  /* background-image: url("./Picture/p1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 60%;
-  background-size: 30rem;
-    content: ""; */
+  /* background-color: #E0E0DB; */
 
 }
 
-/* div.caption:before {
-  content: "";
-  transform:scaleX(-2);
-} */
 div.caption img{
   transform: matrix(-1, 0, 0, 1, 0, 0);
-
 }
 
 div.caption h3{
@@ -40,7 +27,6 @@ div.mission {
   justify-content: center;
   align-items: center;
   padding: 10rem 0 10rem 0;
-
   width: 100%;
 }
 
@@ -84,8 +70,6 @@ div.survey-intro .link {
 div.travel{
   display:flex;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
   padding: 8rem 0 5rem 0;
   background-color: #E0E0DB;
   width: 100%;
@@ -137,5 +121,7 @@ div.help h3{
   display: flex;
   flex-direction: column;
   flex: 1;
+  width: 100%;
+  overflow-x:hidden;
 }
 

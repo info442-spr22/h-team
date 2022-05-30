@@ -16,5 +16,6 @@
 .navbar {
   background-color: #3B7C87;
   width: 100%;
+  overflow-x:hidden;
 }
 
